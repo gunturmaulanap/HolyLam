@@ -1,0 +1,114 @@
+@import url('https://font.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+  padding: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+section {
+  position: relative;
+  min-height: 100vh;
+  background-image: url('img/suriah.jpg');
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  margin: 0 14%;
+}
+
+.promotext {
+  padding-top: 24%;
+  color: #ddedff;
+  text-shadow: 1px 1px 11px #e3db3f;
+}
+
+.promotext h3 {
+  font-size: 6.5rem;
+  line-height: 0.5;
+}
+
+.promotext p {
+  font-size: 2.2rem;
+  font-weight: 300;
+  margin-top: 40px;
+}
+
+.login {
+  position: absolute;
+  padding: 50px 80px;
+  text-align: center;
+  box-shadow: 3px 6px 30px 8px rgb(58 58 58 / 15%);
+  background-color: rgb(0, 52, 134 / 50%);
+  right: 15%;
+  bottom: 20%;
+  height: 57%;
+  border: 1px solid;
+  border-top-color: #f3f65e;
+  border-left-color: #f3f65e;
+  border-bottom-color: #00000030;
+  border-right-color: #00000030;
+  border-radius: 8px;
+  backdrop-filter: blur(5px);
+}
+
+.login h4 {
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: #ffffff;
+}
+
+.login p {
+  font-size: 18px;
+  color: #ffffff;
+  margin-bottom: 100px;
+}
+
+.inputbox {
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.inputbox input {
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  color: #f5a12b;
+  border: none;
+  border-bottom: 1px solid #f3f65e;
+  background-color: transparent;
+  padding: 4px 3px;
+  outline: none;
+}
+
+.inputbox span {
+  position: absolute;
+  left: 2px;
+  bottom: 40px;
+  letter-spacing: 1px;
+  color: #ffffff;
+}
+
+.button {
+  position: relative;
+  cursor: pointer;
+  background: #f3f65e;
+  color: #ffffff;
+  font-weight: 600;
+  border: none;
+  font-size: 20px;
+  padding: 18px 80px;
+  text-transform: uppercase;
+  border-radius: 50px;
+  box-shadow: 0 3px 8px 2px rgb(60 60 60 / 30%);
+  margin-top: 30px;
+}
+
+.button:hover {
+  background-color: #a78206;
+  box-shadow: 0 3px 8px 2px rgb(99 99 99 / 30%);
+  transition: all 0.2s ease-in-out;
+}

@@ -1,13 +1,13 @@
 /********** Template CSS **********/
 .holy {
-  color: #6d67e4;
+  color: #81c6e8;
 }
 
 :root {
-  --primary: #6d67e4;
+  --primary: #81c6e8;
   --secondary: #fff0e6;
   --light: #f8f8f9;
-  --dark: #001d23;
+  --pink: #d63384;
 }
 
 .back-to-top {
@@ -38,10 +38,10 @@
   transition: 0.5s;
 }
 
-.btn.btn-primary,
-.btn.btn-outline-primary:hover {
-  color: #ffffff;
-  background-color: #6d67e4;
+.btn.btn-info,
+.btn.btn-outline-info:hover {
+  color: var(--secondary);
+  background-color: var(--primary);
 }
 
 .btn.btn-primary:hover {
